@@ -1,0 +1,65 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.toolbar-background-md {
+    border-color: #877a1b;
+    background: #ff720e !important;
+    color: #fff;
+}
+
+.tab-button[aria-selected=true] .tab-button-icon {
+    color: #ff720e !important;
+}
+.tabs-md .tab-button[aria-selected=true] {
+    color: #ff720e !important;
+    padding: 0;
+}
+
+.tabs-md .tabbar {
+    background: #292727;
+}
+.toolbar-title-md {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.toggle-md.toggle-checked .toggle-icon {
+    background-color: #ff720e;
+}
+.toggle-md.toggle-checked .toggle-inner {
+    -webkit-transform: translate3d(16px, 0, 0);
+    transform: translate3d(16px, 0, 0);
+    background-color: #ff720e;
+}
+.item-md.item-toggle ion-label {
+    margin-left: 0;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.button-md {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #94847a;}
